@@ -1,0 +1,90 @@
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.headd{
+    background-color: white;    
+    width: auto;
+    height: 10vh;
+    position: relative;
+    display: flex;
+}
+#main_pic{
+    position: absolute;
+    max-width: 20%;
+    top: 50%; /* bu ve altındaki satır parentin içindeki child div'ini y ekseninde ortalar */
+    transform: translateY(-50%);
+    left: 0; /* ne olur ne olmaz diye sola yasladık */
+    height: 10vh;
+}
+.search_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    position: absolute;
+    left: 50%; /*bu ve altındaki 2 satır tam ortaladı*/
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+}
+
+.login_area{
+    background-color: white;
+    padding: 3px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25vw;
+    font-weight: bold;
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .upload_key{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10vh;
+        height: 7vh;
+        background-color: white;
+        color: deepskyblue;
+        border-radius: 1rem;
+    }
+    .th_days{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vh;
+        height: 7vh;
+        background-color: deepskyblue;
+        color: white;
+        border-radius: 1rem;
+        font-size: 0.8em;
+    }
+    .login_{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13vh;
+        height: 7vh;
+        background-color: white;
+        color: deepskyblue;
+        border-radius: 1rem;
+    }
+
+}
