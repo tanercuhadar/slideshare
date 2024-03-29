@@ -86,5 +86,74 @@
         color: deepskyblue;
         border-radius: 1rem;
     }
+}
 
+.bas_foto{
+    /* background-color: black; */
+    position: relative;
+    width: auto;
+    height: 28vh;
+    img{
+        
+        width: 100%;
+        height: 28vh;
+    }
+    .img_ici_text{
+        position: absolute;
+        width: 15vw;
+        height: 5vh;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10vh;
+        font-weight: bold;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2rem;
+    }
+
+}
+.slides{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    .first_row{
+        background-color: white;
+        left: 50%;
+        margin: 1vh auto;
+        width: 90%;
+        height: 65vh;
+        .first_title{
+            padding: 2px;
+            padding-top: 8px;
+            display: flex;
+            justify-content: space-between;
+            height: 6vh;
+        }
+        .first_four_slide{
+            display: flex;
+            justify-content: space-between;
+            background-color: brown;
+            height: 59vh;
+            .first_11{
+                width: 25%;
+                background-color: blue;
+            }
+        }
+    }
+    .second_row{
+        background-color: skyblue;
+        left: 50%;
+        margin: 1vh auto;
+        width: 80%;
+        height: 45vh;
+    }
+    .third_row{
+        background-color: chocolate;
+        left: 50%;
+        margin: 1vh auto;
+        width: 80%;
+        height: 45vh;
+    }
 }
